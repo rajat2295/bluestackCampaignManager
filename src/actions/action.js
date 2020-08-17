@@ -1,5 +1,6 @@
 import { fetchListingData } from "../utilities/api/getListingApi";
 
+// Action to fetch listing data and store it in the store==>
 export const getListingData = () => async (dispatch) => {
     let listingData = {};
     try {
@@ -12,6 +13,7 @@ export const getListingData = () => async (dispatch) => {
    
 }
 
+// Function to segregate the list into live, past and upcoming campaigns and store into store==>
 const sortList =(listingData) => dispatch=> {
     const upcoming=[];
     const live=[];
@@ -35,20 +37,26 @@ const sortList =(listingData) => dispatch=> {
     return null;
 }
 
+// Dispatcher function to storeListing Data into store 
 export const setListingData = data => ({
 	type: 'SET_LISTING_DATA',
 	payload: { ...data }
 });
 
+// store the data of a particular Row===>
 export const setRowData = data => ({
     type: 'SET_ROW_DATA',
 	payload: { ...data }
 })
+
+// Action for toggling the popUpLayer==>
 export const openClosePopUp = data => ({
     type: 'OPEN_CLOSE_POPUP',
 	payload: data
 })
 
+/*action triggered when a date is changed from Calender component and then further 
+calls the sort list function ====> */
 export const changeDate =(rowData,date) => (dispatch,getState)=>{
     const  listingData  = getState().listingData;
     listingData && listingData.data && listingData.data.map(row=> {

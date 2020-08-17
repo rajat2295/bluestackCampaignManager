@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { memo } from 'react'
 import './Header.css'
 import { imgList } from '../../utilities/contants/ListingPageConstants'
+
+// Static Header Component ===>
 const Header = () => {
     
     return(
@@ -11,4 +13,5 @@ const Header = () => {
             </header>
     )
 }
-export default Header;
+
+export default memo(Header);

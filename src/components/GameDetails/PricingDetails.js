@@ -6,6 +6,7 @@ import { setRowData, openClosePopUp } from '../../actions/action'
 
 const pricingDetails = ({ gameInfo,setRowData,openClosePopUp }) => {
 
+    // click handler for opening pricing PopUp and set rowData==>
     const pricingPopUpHandler = () => {
         setRowData(gameInfo);
         openClosePopUp(true);
@@ -13,7 +14,6 @@ const pricingDetails = ({ gameInfo,setRowData,openClosePopUp }) => {
     return (
         <Fragment>
             <GameIcons clickHandler={pricingPopUpHandler} label='View Pricing' icon='price' />
-            {/* <PricingPopup /> */}
         </Fragment>
     )
 }

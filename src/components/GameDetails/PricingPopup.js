@@ -16,11 +16,14 @@ const pricingPopup = ({ rowData }) => {
     } = rowData
     return (
         <div className='pricePopUp'>
+
+            {/* Reusing Display Game Name And Image Static Component==> */}
             <GameName imageUrl={image_url}
                 name={name}
                 region={region}
                 largeImage
             />
+            {/* The Cost Card of the Tuple==> */}
             <div className="pricingDetail">
                 <h3 className="heading">Pricing</h3>
                 <div className="content">
@@ -32,16 +35,11 @@ const pricingPopup = ({ rowData }) => {
                     </div>
                 </div>
             </div>
-
-            {/* <div className="modal-footer">
-                        <div className="button-container">
-                            <button type="button" className="close-modal">Close</button>
-                        </div>
-                    </div> */}
         </div>
     )
 }
 
+// Fetching the Particular row Selected to show pricing details ==>
 const mapStateToProps = state => {
     const {
         rowData = {}

@@ -1,6 +1,7 @@
 import React, { memo } from 'react'
 import './GameDetails.css'
 
+// Static Component that Displays image , name and region of the game==>
 const GameName = ({imageUrl,name,region,largeImage}) => {
     return(
     <div className={`campainNameContainer ${largeImage?'largeImage':''}`} >

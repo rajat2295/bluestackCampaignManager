@@ -6,6 +6,7 @@ import { changeDate } from '../../actions/action'
 
 const GameActions = ({changeDate,rowData}) => {
 
+    // fires the Action to Sort data and update table in the store ==>
     const openCalender =(date) =>{
         changeDate(rowData,date);
     }
@@ -21,6 +22,8 @@ const GameActions = ({changeDate,rowData}) => {
         icon: 'calender',
         clickHandler : openCalender
     }]
+
+    // reusing gameicon component parsing label icon and handlers with a custom click handler for calender compoennt ==>
     return (
         <Fragment>
             {
