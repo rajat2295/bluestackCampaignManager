@@ -13,3 +13,10 @@ To kickstart the awesomeness please make sure you follow these points
 
 5.npm run start (It's time to party!! the party is at your localhost and the host is our old friend http)
 
+
+Test Case Suit
+https://docs.google.com/spreadsheets/d/1hsFRWadCm-23FvOWZzU_0Hdjzby4nQUtXY3Zzl_nlN8/edit?usp=sharing
+
+Make Sure things are working as desired. you don't want the party to crash.
+
+
