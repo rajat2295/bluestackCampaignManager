@@ -11,5 +11,5 @@ To kickstart the awesomeness please make sure you follow these points
 
 4.npm run build ( let bob the builder do his work)
 
-5. npm run start (It's time to party!! the party is at your localhost and the host is our old friend http)
+5.npm run start (It's time to party!! the party is at your localhost and the host is our old friend http)
 
