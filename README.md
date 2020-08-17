@@ -1,2 +1,15 @@
 # bluestackCampaignManager
 campaing management system for cool funky games on bluestacks platform
+
+To kickstart the awesomeness please make sure you follow these points
+
+1.make sure you have the latest Node and npm version installed
+
+2.npm install (just install the basic dependencies....might take a while)
+
+3.npm run (wuhuuu we're almost there)
+
+4.npm run build ( let bob the builder do his work)
+
+5. npm run start (It's time to party!! the party is at your localhost and the host is our old friend http)
+
