@@ -1,0 +1,182 @@
+.gameIcon .thumbImg {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* Name Component */
+
+.campainNameContainer .logo {
+    display: inline;
+    /* width: 50%; */
+    float: left;
+    margin-right: 10px;
+}
+
+.campainNameContainer .logo>img {
+    width: 50px;
+    height: 50px;
+}
+
+.campainNameContainer .logo>.largeThumb {
+    width: 137px;
+    height: 137px;
+}
+ .campainNameContainer.largeImage .campaignName > p:first-child{
+    margin-top: 90px;
+color: #2B416C;
+    
+}
+.campainNameContainer.largeImage .campaignName > p:last-child{
+    font-style: normal;
+    color: #9CA2B7;
+
+    
+}
+.campainNameContainer.largeImage .campaignName > p{
+    text-align: left;
+}
+
+.campainNameContainer .campaignName {
+    display: inline;
+    /* width: 50%; */
+    /* float: right; */
+}
+
+.campainNameContainer .campaignName p {
+    margin: 0;
+}
+
+.campainNameContainer .campaignName p:first-child {
+    margin-bottom: 5px;
+    color: #556789;
+}
+
+.campainNameContainer .campaignName p:last-child {
+    font-style: italic;
+}
+
+
+/* Pricing Component */
+
+.gameIcon {
+    display: inline;
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.gameIcon .gameImg {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.gameIcon .gameLabel {
+    margin: 0 5px;
+}
+
+
+/* DATE */
+
+.date {
+    color: #2B416C;
+}
+
+.date p {
+    font-style: italic;
+    color: #7788A3;
+}
+
+
+/* PRICING */
+
+.pricingDetail .heading {
+    color: #110a29;
+    margin-top: 0;
+}
+
+.pricingDetail .content {
+    display: inline;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.pricingDetail .duration{
+    display: inline-table;
+    width: 70%;
+}
+.pricingDetail .cost {
+    display: inline-table;
+    width: 30%;
+}
+.pricePopUp {
+    display: contents;
+    margin-bottom:20px
+}
+
+.pricingDetail{
+    margin-top: 20px;
+}
+.pricingDetail p {
+    margin: 0 0 15px;
+}
+
+.pricingDetail .cost {
+    text-align: right;
+}
+
+.heading {
+    display: block;
+    text-align: left;
+    height: 32px;
+    left: 5%;
+    right: 75.75%;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #2B416C;
+}
+
+.duration {
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #7788A3;
+    text-align: left;
+}
+
+.cost {
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: right;
+    color: #556789;
+    font-weight: bold;
+
+}
+
+ @media
+ 	  only screen 
+     and (max-width: 760px), (min-device-width: 768px) 
+     and (max-device-width: 1024px)  {
+         .campainNameContainer .logo {
+             float: none;
+             margin: 5px;
+         }
+         .gameIcon {
+             display: block;
+             margin: 20px 0;
+         }
+         .react-datepicker-wrapper{
+             margin: -10px 0;
+         }
+         .campainNameContainer.largeImage .campaignName > p:first-child{
+            margin-top: 10px;
+        color: #2B416C;
+            
+        }
+        .campainNameContainer.largeImage .campaignName > p {
+            text-align: center;
+        }
+     }

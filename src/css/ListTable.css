@@ -1,0 +1,187 @@
+
+
+
+.panelBtn {
+
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px -1px -2px 0px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #6C7A98; 
+  outline:0 !important;
+  }
+  .panel{
+    padding:50px 0px;
+    background-color: white; 
+    border: 1px solid #111;
+  outline:0 !important;
+  animation: mymove 5s infinite;
+
+  }
+  
+  .panelBtn.active {
+    background-color: #fff;
+    /* font-weight: 600; */
+    border: 0;
+    color:#8CAB2B;
+  border-bottom: 2px solid #8CAB2B;
+  }
+
+  .navBtn {
+      text-align: left;
+      border-bottom: #000;
+  }
+  .w100{
+      width: 100%;
+  }
+  .mt20{
+      margin-top: 20px;
+  }
+
+  .bottomLine {
+    width: 100%;
+    padding-top: 12px;
+    border-bottom: 1px solid #ebecf0;
+    position: relative;
+    min-width: 100%;
+  }
+  .spacer16:after {
+    
+    border-top:1px solid #F1F1F4;
+    margin-top: 2px;
+    height: 16px;
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+
+.table th {
+  padding: 10px;
+  width: 25%;
+  color:'#75839F';
+  background:'#F1F1F4';
+}
+
+
+.listTable  {
+  width: 100%;
+  text-align: left;
+}
+
+.listTable .react-bootstrap-table {
+  box-shadow: 2px 2px 6px 1px lightgrey;
+}
+
+.listTable td {
+  vertical-align: middle;
+  color: #9ca2b7;
+
+}
+.table-bordered td  {
+  border:0;
+  border-bottom: 1px solid #dee2e6;
+}
+.table-bordered td:first-child{
+  padding-left: 20px;
+}
+
+thead th {
+  border-bottom-width: 2px;
+  background:#F1F1F4;
+  color:#556789;
+}
+.table thead th {
+  border:2px
+}
+.tableRoot {
+  
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* TABLE CONTENT */
+
+.title {
+  text-align: left;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+color: #2B416C;
+}
+
+
+
+@media
+	  only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+    tr {
+      margin: 0 0 2rem 0;
+      border-top:1px dashed;
+    }
+      
+    tr:nth-child(odd) {
+      background: #e6ffe6;
+    }
+    
+		td {
+      /* Behave  like a "row" */
+      text-align: center;
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+
+    .react-datepicker-popper{
+      left: -20% !important;
+    }
+    .title{
+      text-align: center;
+    }
+    .panelBtn {
+      width: 33%;
+    }
+  }
+  @keyframes mymove {
+    50% {opacity:1;}
+  }
