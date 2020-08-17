@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bluestackCampaignManager/static/css/main.5a765d90.chunk.css",
+    "main.js": "/bluestackCampaignManager/static/js/main.f598f72d.chunk.js",
+    "main.js.map": "/bluestackCampaignManager/static/js/main.f598f72d.chunk.js.map",
+    "runtime-main.js": "/bluestackCampaignManager/static/js/runtime-main.d9387b5a.js",
+    "runtime-main.js.map": "/bluestackCampaignManager/static/js/runtime-main.d9387b5a.js.map",
+    "static/css/2.b56a0318.chunk.css": "/bluestackCampaignManager/static/css/2.b56a0318.chunk.css",
+    "static/js/2.b222bd7d.chunk.js": "/bluestackCampaignManager/static/js/2.b222bd7d.chunk.js",
+    "static/js/2.b222bd7d.chunk.js.map": "/bluestackCampaignManager/static/js/2.b222bd7d.chunk.js.map",
+    "index.html": "/bluestackCampaignManager/index.html",
+    "precache-manifest.ae1c01751159088c8c4105df3931891a.js": "/bluestackCampaignManager/precache-manifest.ae1c01751159088c8c4105df3931891a.js",
+    "service-worker.js": "/bluestackCampaignManager/service-worker.js",
+    "static/css/2.b56a0318.chunk.css.map": "/bluestackCampaignManager/static/css/2.b56a0318.chunk.css.map",
+    "static/css/main.5a765d90.chunk.css.map": "/bluestackCampaignManager/static/css/main.5a765d90.chunk.css.map",
+    "static/js/2.b222bd7d.chunk.js.LICENSE.txt": "/bluestackCampaignManager/static/js/2.b222bd7d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9387b5a.js",
+    "static/css/2.b56a0318.chunk.css",
+    "static/js/2.b222bd7d.chunk.js",
+    "static/css/main.5a765d90.chunk.css",
+    "static/js/main.f598f72d.chunk.js"
+  ]
+}
